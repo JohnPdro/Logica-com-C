@@ -9,15 +9,15 @@ int main()
     scanf("%i", &num);
 
     for(int linha=num-1; linha>=0; linha--){
-        // 1a Lógica - Imprimir - da linha
+        // 1a Lï¿½gica - Imprimir - da linha
         for(int asterisco=1; asterisco<=linha; asterisco++){
             printf("-");
         }
-
-        // 2a Lógica - Imprimir *
+        
+        // 2a Lï¿½gica - Imprimir *
         printf("*");
 
-        // 3a Lógica - Imprimir -*
+        // 3a Lï¿½gica - Imprimir -*
         for(int trac_ast=1; trac_ast<=(num-linha-1); trac_ast++)
         {
             printf("-*");
